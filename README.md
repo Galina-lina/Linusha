@@ -61,3 +61,5 @@ $ docker run -p 8080:8080 sampleapi:latest
 		"price": 10002,
 		"quantity": 12
 }```
+- Удаление конкретной записи из БД по известному id
+  - Тип запроса DELETE ``` http://localhost:8080/api/v1/products/4 ``` 

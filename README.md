@@ -47,18 +47,17 @@ $ docker run -p 8080:8080 sampleapi:latest
 
 ### Примеры запросов к API
 - Получение имени хоста
- -  Тип запроса GET ``` http://localhost:8080/api/v1/status ```
+  -  Тип запроса GET ``` http://localhost:8080/api/v1/status ```
 - Получение всех записей из БД 
- -  Тип запроса GET ``` http://localhost:8080/api/v1/products ```
+  -  Тип запроса GET ``` http://localhost:8080/api/v1/products ```
 - Получение конкретной записи из БД по известному id
- -  Тип запроса GET ``` http://localhost:8080/api/v1/products/2 ```
+  -  Тип запроса GET ``` http://localhost:8080/api/v1/products/2 ```
 - Запись в БД нового продукта
  -  Тип запроса POST ``` http://localhost:8080/api/v1/products/ ```
-  -   Запрос JSON ``` 
+   -   Запрос JSON ``` 
 {
 		"name": "New Book2",
 		"brand": "New Brand2 ",
 		"price": 10002,
 		"quantity": 12
-}
-```
+}```

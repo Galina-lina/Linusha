@@ -54,7 +54,7 @@ $ docker run -p 8080:8080 sampleapi:latest
   -  Тип запроса GET ``` http://localhost:8080/api/v1/products/2 ```
 - Запись в БД нового продукта
   -  Тип запроса POST ``` http://localhost:8080/api/v1/products/ ```
-    -   Запрос JSON ``` 
+     -   Запрос JSON ``` 
 {
 		"name": "New Book2",
 		"brand": "New Brand2 ",
